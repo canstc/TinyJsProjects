@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body
+{
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#copybtn
+{
+    background-color: transparent;
+    border: 0;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#spancolor
+{
+    font-size: 48px;
+}
+
+#btn
+{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-top: 3%;
+    padding: 3px;
+    cursor: pointer;
+}
