@@ -25,7 +25,7 @@ async function copy_hex_code()
     let copy_text = color_span.innerHTML;
     const text_code=copy_text.toString();
     navigator.clipboard.writeText(text_code);
-    alert("Copied the text: " + text_code);
+    
 
 }
 
